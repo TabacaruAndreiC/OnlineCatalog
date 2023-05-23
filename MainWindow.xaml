@@ -1,0 +1,39 @@
+﻿<Window x:Class="Platforma_Educationala.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Platforma_Educationala"
+        mc:Ignorable="d"
+        xmlns:views="clr-namespace:Platforma_Educationala.Views"
+        Title="MainWindow" Height="600" Width="900">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Name="stack" Grid.RowSpan="5" Grid.ColumnSpan="6">
+            <TextBlock Margin="250, 120, 0, 10" FontFamily="Comic Sans MS" FontSize="16" > Username</TextBlock>
+            <TextBox Name="UsernameText" Margin="-100, 0, 0, 0" Width="200" Height="25"></TextBox>
+            <TextBlock Margin="250, 10, 0, 10" FontFamily="Comic Sans MS" FontSize="16"> Password</TextBlock>
+            <PasswordBox Name="PasswordText"  Margin="-100, 0, 0, 0" Width="200" Height="25"></PasswordBox>
+            <Button FontFamily="Comic Sans MS" FontSize="15" Margin="-200, 20, 0, 0" Width="100" Height="25" Content="Login" Click="Button_C"/>
+        </StackPanel>
+
+
+    </Grid>
+</Window>

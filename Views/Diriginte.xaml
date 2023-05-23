@@ -1,0 +1,36 @@
+﻿<Window x:Class="Platforma_Educationala.Views.Diriginte"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Platforma_Educationala.Views"
+        mc:Ignorable="d"
+        Title="Diriginte" Height="450" Width="800">
+    <Grid>
+        <Canvas  Margin="4,0,5,206">
+
+            <Label Content="Selecteaza materia "  FontSize="15" Width="185" Height="27" Canvas.Left="12" Canvas.Top="6"/>
+            <ComboBox SelectionChanged="cbMaterie_SelectionChanged" Name="cbMaterie"  Canvas.Left="16" Canvas.Top="36" Width="233" RenderTransformOrigin="0.412,0.533"/>
+            <Label Content="Selecteaza elev "  FontSize="15" Width="233" Height="27" Canvas.Left="17" Canvas.Top="68"/>
+            <ComboBox SelectionChanged="cbElev_SelectionChanged"  Name="cbElev"   Canvas.Left="16" Canvas.Top="106" Width="233" RenderTransformOrigin="0.412,0.533"/>
+            <Button Click="VizualizareAbsente_Click" BorderBrush="Black"    Name="VizualizareAbsente" Content="Vizualizare Absente" Canvas.Left="16" Canvas.Top="134"></Button>
+            <Button Click="VizualizareMedii_Click" BorderBrush="Black"   Name="VizualizareMedii" Content="Vizualizare Medii" Canvas.Left="15" Canvas.Top="161"></Button>
+            <DataGrid  Visibility="Hidden" Name="DataGrid" Canvas.Left="294" Canvas.Top="33" Height="99" Width="209" ></DataGrid>
+            <Button Visibility="Hidden" Click="Motiveaza_Click" Name="Motiveaza" Content="Motiveaza"  BorderBrush="Black" Canvas.Left="369" Canvas.Top="158"></Button>
+            <Label  Name="Total"  FontSize="15" Canvas.Left="533" Canvas.Top="36" Height="30" Width="167" Content="" ></Label>
+            <Label   Name="Valoare" Width="167" Canvas.Left="539" Canvas.Top="85" Height="30"  RenderTransformOrigin="0.5,0.5" />
+
+        </Canvas>
+
+        <Canvas  Margin="4,233,0,10">
+            <Button Name="Ierarhie" Click="Ierarhie_Click"  Content="Ierarhie Clasa" Canvas.Left="31" Canvas.Top="10" RenderTransformOrigin="-5.039,-2.72" Width="130" Height="20"/>
+            <Button Click="Premianti_Click" x:Name="Premianti"   Content="Premianti" Canvas.Left="31" Canvas.Top="35" RenderTransformOrigin="-7.815,-1.05" Width="130" Height="20"/>
+            <DataGrid x:Name="List"  Foreground="Black" Height="121" Width="298" Canvas.Left="269" Canvas.Top="10"/>
+            <Button x:Name="Corigenti" Click="Corigenti_Click"   Content="Corigenti" Canvas.Left="31" Canvas.Top="60" Width="130"/>
+            <Button Click="Button_Click" Visibility="Hidden" Content="Repetenti" Canvas.Left="31" Canvas.Top="86" Width="130"/>
+            <Button Click="Button_Click_1" Visibility="Hidden"  Content="Exmatriculare" Canvas.Left="31" Canvas.Top="111" RenderTransformOrigin="-14.175,2.424" Width="130"/>
+
+        </Canvas>
+
+    </Grid>
+</Window>

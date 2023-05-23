@@ -1,0 +1,59 @@
+﻿<Window x:Class="Platforma_Educationala.Views.Profesor"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Platforma_Educationala.Views"
+        mc:Ignorable="d"
+        Title="Profesor" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="192*"/>
+        </Grid.RowDefinitions>
+
+
+        <Canvas Background="Black" Margin="4,0,5,50">
+            <Label Content="Selecteaza clasa"  FontSize="15" Width="291" Canvas.Top="-1" Height="27"/>
+            <ComboBox SelectionChanged="cbClasa_SelectionChanged" Name="cbClasa" ItemsSource="{Binding ClassList}"  Canvas.Left="6" Canvas.Top="22" Width="193"/>
+
+
+            <Label Content="Selecteaza materia "  FontSize="15" Width="185" Height="27" Canvas.Left="253" Canvas.Top="-3"/>
+            <ComboBox Name="cbMaterie"  ItemsSource="{Binding MateriiList}" Canvas.Left="258" Canvas.Top="25" Width="233" RenderTransformOrigin="0.412,0.533"/>
+            <Label Content="Selecteaza elev "  FontSize="15" Width="233" Height="27" Canvas.Left="544" Canvas.Top="-3"/>
+            <ComboBox SelectionChanged="cbElev_SelectionChanged" Name="cbElev"   Canvas.Left="548" Canvas.Top="25" Width="221" RenderTransformOrigin="0.412,0.533"/>
+        </Canvas>
+
+        <StackPanel Grid.Row="1">
+            <Label Name="txtNote" Visibility="Hidden" Content="Note"  FontSize="17"/>
+            <DataGrid  Visibility="Hidden" x:Name="dtaGrid" Height="194" Width="237"/>
+            <Button  Visibility="Hidden" Name="Adauga" Click="Adauga_Click"  BorderBrush="Black" Content="Adauga" Height="37"></Button>
+            <Button Click="Modifica_Click" Visibility="Hidden"  Name="Modifica"   BorderBrush="Black" Content="Modifica" Height="37"></Button>
+            <Button Content="Sterge" Name="sterge" Click="sterge_Click"  BorderBrush="Black" Visibility="Hidden" Height="37"></Button>
+
+
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <Label Name="txtAbs" Visibility="Hidden" Content="Absente"  FontSize="17"/>
+            <DataGrid Visibility="Hidden" x:Name="dtsABSGrid" Height="198" Width="250"></DataGrid>
+            <Button Name="AdaugaABS" Content="Adauga"   BorderBrush="Black" Visibility="Hidden" Click="Button_Click"></Button>
+            <Button Content="Motiveaza" Name="stergeAbs" Click="sterge_Click_1"  BorderBrush="Black" Visibility="Hidden" Height="37"></Button>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" Grid.Column="2">
+            <Button Content="Afiseaza" BorderBrush="Black" Visibility="Hidden" x:Name="Afiseaza1" Click="Afiseaza_Click_1"    Height="37" Width="223"/>
+            <Label x:Name="MedieLbl" Visibility="Hidden" Content="Media" FontSize="17" Height="39"/>
+            <TextBlock Visibility="Hidden" x:Name="txtMedie"  Height="33" Width="253"/>
+            <Button Visibility="Hidden"  BorderBrush="Black" Click="calculeaza_Click" x:Name="calculeaza" Content="Calculeaza" />
+            <Button FontSize="20" Click="Diriginte_Click" Name="Diriginte" Content="Diriginte" Visibility="Hidden"  BorderBrush="Black" Height="59" ></Button>
+        </StackPanel>
+
+    </Grid>
+</Window>

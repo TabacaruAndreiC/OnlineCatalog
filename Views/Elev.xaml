@@ -1,0 +1,52 @@
+﻿<Window x:Class="Platforma_Educationala.Views.Elev"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Platforma_Educationala.Views"
+        mc:Ignorable="d"
+        Title="Elev" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="192*"/>
+        </Grid.RowDefinitions>
+
+        <Canvas Margin="0,0,266,50" Grid.ColumnSpan="2">
+            <Label Content="Selecteaza materia" FontSize="30" Width="269" Canvas.Top="-1" Height="50"/>
+            <ComboBox Name="cbMaterie"  ItemsSource="{Binding SubjectsList}" Canvas.Left="274" Canvas.Top="17" Width="349"/>
+        </Canvas>
+
+        <StackPanel Grid.Row="1">
+            <Label Content="Note"  FontSize="17"/>
+            <DataGrid Name="dtaGrid" Height="194" Width="231"></DataGrid>
+            <Button Name="afiseaza" Click="afiseaza_Click"  Content="Afiseaza" Height="29" Margin="43,0,65,0"/>
+            <Label Content="Media"  FontSize="17" Height="50"/>
+            <TextBlock Name="txtMedie"  Height="33" Width="253"/>
+
+        </StackPanel>
+
+
+        <StackPanel Grid.Row="1" Grid.Column="1">
+            <Label Content="Absente" FontSize="17"/>
+            <DataGrid x:Name="dtsABSGrid" Height="198" Width="250"></DataGrid>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" Grid.Column="2">
+            <Label Visibility="Hidden" Content="Material didactic"  FontSize="17"/>
+            <TextBlock Visibility="Hidden" Name="TXT"  FontSize="17" Height="100">
+               <Hyperlink  NavigateUri="https://www.youtube.com/watch?v=Qj_cm04Ju4Q"  > video </Hyperlink>
+            </TextBlock>
+            <Label Visibility="Hidden" Content="Media generala"  FontSize="17" Height="50"/>
+            <TextBlock Visibility="Hidden" Name="txtAVG" FontSize="17" Height="33" Width="253"></TextBlock>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
