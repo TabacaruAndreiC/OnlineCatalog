@@ -1,0 +1,79 @@
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\bin\Debug\Platforma_Educationala.exe.config
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\bin\Debug\Platforma_Educationala.exe
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\bin\Debug\Platforma_Educationala.pdb
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\MainWindow.g.cs
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\App.g.cs
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Platforma_Educationala_MarkupCompile.cache
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Platforma_Educationala_MarkupCompile.lref
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\MainWindow.baml
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Platforma_Educationala.g.resources
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Platforma_Educationala.Properties.Resources.resources
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Platforma_Educationala.csproj.GenerateResource.cache
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Platforma_Educationala.csproj.CoreCompileInputs.cache
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Platforma_Educationala.exe
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Platforma_Educationala.pdb
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Views\AdaugaUtilizator.g.cs
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Views\ModificaUtilizator.g.cs
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Views\StergeUtilizator.g.cs
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\bin\Debug\System.Configuration.ConfigurationManager.dll
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\bin\Debug\System.Security.AccessControl.dll
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\bin\Debug\System.Security.Permissions.dll
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\bin\Debug\System.Security.Principal.Windows.dll
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\bin\Debug\System.Configuration.ConfigurationManager.xml
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\bin\Debug\System.Security.AccessControl.xml
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\bin\Debug\System.Security.Permissions.xml
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\bin\Debug\System.Security.Principal.Windows.xml
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Views\AdaugaUtilizator.baml
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Views\ModificaUtilizator.baml
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Views\StergeUtilizator.baml
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Platforma_Educationala.csproj.CopyComplete
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Views\Admin.g.cs
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Views\Admin.baml
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Views\Diriginte.g.cs
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Views\Elev.g.cs
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Views\Profesor.g.cs
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Views\Diriginte.baml
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Views\Elev.baml
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Views\Profesor.baml
+G:\FACULTATE\ANUL 2\SEMESTRUL II\MVP\Platforma_Educationala\obj\Debug\Platforma_Educationala.csprojAssemblyReference.cache
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\bin\Debug\Platforma_Educationala.exe.config
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\bin\Debug\Platforma_Educationala.exe
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\bin\Debug\Platforma_Educationala.pdb
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\bin\Debug\System.Configuration.ConfigurationManager.dll
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\bin\Debug\System.Security.AccessControl.dll
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\bin\Debug\System.Security.Permissions.dll
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\bin\Debug\System.Security.Principal.Windows.dll
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\bin\Debug\System.Configuration.ConfigurationManager.xml
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\bin\Debug\System.Security.AccessControl.xml
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\bin\Debug\System.Security.Permissions.xml
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\bin\Debug\System.Security.Principal.Windows.xml
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Platforma_Educationala.csproj.AssemblyReference.cache
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Platforma_Educationala.csproj.SuggestedBindingRedirects.cache
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\MainWindow.g.cs
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Views\AdaugaUtilizator.g.cs
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Views\Admin.g.cs
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Views\Diriginte.g.cs
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Views\Elev.g.cs
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Views\ModificaUtilizator.g.cs
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Views\Profesor.g.cs
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Views\StergeUtilizator.g.cs
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\App.g.cs
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Platforma_Educationala_MarkupCompile.cache
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Platforma_Educationala_MarkupCompile.lref
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\MainWindow.baml
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Views\AdaugaUtilizator.baml
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Views\Admin.baml
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Views\Diriginte.baml
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Views\Elev.baml
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Views\ModificaUtilizator.baml
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Views\Profesor.baml
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Views\StergeUtilizator.baml
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Platforma_Educationala.g.resources
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Platforma_Educationala.Properties.Resources.resources
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Platforma_Educationala.csproj.GenerateResource.cache
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Platforma_Educationala.csproj.CoreCompileInputs.cache
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Platforma_Educationala.csproj.CopyComplete
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Platforma_Educationala.exe
+D:\An2\sem2\MVP\Tema3\Platforma_Educationala\obj\Debug\Platforma_Educationala.pdb
